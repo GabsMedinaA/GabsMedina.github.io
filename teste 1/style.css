@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Roboto:ital@1&display=swap');
+        * {
+            margin: 0;
+        }
+
+        .card {
+            width: 200px;
+            height: 300px;
+            background-color: rgb(62, 82, 163);
+            background-image: linear-gradient( to top, rgb(49, 34, 253), rgb(95, 67, 250) );
+            border-radius: 20px;
+            position: absolute;
+            top: 30%;
+            left: 40%;
+        }
+
+        .bola {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-color: blue;
+            background-image: linear-gradient( to top, rgb(66, 52, 252), rgb(69, 2, 226) );
+            border-radius: 50%;
+            top: 70px;
+            left: 50px;
+        }
+
+        .resultado {
+            font: bold 35px 'Inclusive Sans', sans-serif;
+            color: azure;
+            position: absolute;
+            top: 23px;
+            left: 30px;
+        }
+
+        .of100 {
+            font: bold 10px 'Inclusive Sans', sans-serif;
+            color: rgba(240, 255, 255, 0.397);
+            position: absolute;
+            top: 65px;
+            left: 34px;
+        }
+
+        .yresultado {
+            font: normal 14px 'Inclusive Sans', sans-serif;
+            color: rgba(255, 255, 255, 0.692);
+            position: absolute;
+            top: 15px;
+            left: 60px;
+        }
+
+        .great {
+            font: normal 20px 'Inclusive Sans', sans-serif;
+            color: rgba(255, 255, 255, 0.952);
+            position: absolute;
+            top: 180px;
+            left: 74px;
+        }  
+
+        .scored {
+            text-align: center;
+            font: normal 11px 'Inclusive Sans', sans-serif;
+            color: rgba(255, 255, 255, 0.664);
+            position: absolute;
+            top: 215px;
+            left: 19px;
+            right: 19px;
+        }
+
+        .lado{
+            width: 250px;
+            height: 300px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            position: absolute;
+            left: 200px;
+            top: 30%;
+            left: 51%;
+        }
+
+        .Summary {
+            text-align: left;
+            font: bold 16px 'Inclusive Sans', sans-serif;
+            color: rgb(0, 0, 0);
+            position: absolute;
+            top: 13px;
+            left: 30px;
+            right: 19px;
+        }
+
+        .habilidades {
+            text-align: left;
+            font: normal 15px 'Inclusive Sans', sans-serif;
+            color: rgb(0, 0, 0);
+            position: absolute;
+            top: 13px;
+            left: 60px;
+            right: 19px;
+            margin-top: 40px;
+        }
+
+        .hb1 {
+            color: rgba(214, 25, 0, 0.788);
+            position: absolute;
+        }
+
+        .hb2 {
+            color: rgba(199, 186, 1, 0.801);
+            position: absolute;
+            top: 47px;
+        }
+
+        .hb3 {
+            color: rgba(0, 153, 102, 0.788);
+            position: absolute;
+            top: 94px;
+        }
+
+        .hb4 {
+            color: rgba(43, 1, 156, 0.884);
+            position: absolute;
+            top: 141px;
+        }   
+
+        .imgs {
+            position: absolute;
+            margin-left: 20px;
+            margin-top: 40px;
+            animation-name: leveza;
+            animation: infinite;
+            animation-duration: 10s;
+        }
+
+        .imgs img{
+            margin: 11.5px;
+        }
+
+        .numeros {
+            font: normal 16px 'Inclusive Sans', sans-serif;
+            position: absolute;
+            margin-left: 130px;
+            margin-top: 22px;
+        }
+
+        .numeros div{
+            margin: 29px;
+        }
+
+        .numeros100 {
+            color: rgba(0, 0, 0, 0.521);
+            flex-wrap: nowrap;
+            font: normal 16px 'Inclusive Sans', sans-serif;
+            position: absolute;
+            margin-left: 150px;
+            margin-top: 22px;
+        }
+
+        .numeros100 div{
+            margin: 29px;
+        }
+
+        .continue {
+            width: 200px;
+            height: 39px;
+            background-color: rgb(45, 63, 90);
+            position: absolute;
+            border-radius: 21px;
+            left: 29px;
+            top: 240px;
+            cursor: pointer;
+        }
+
+        .continue p {
+            cursor: pointer;
+            font: normal 13px 'Inclusive Sans', sans-serif;
+            color: rgb(255, 255, 255);
+            position: absolute;
+            top: 11px;
+            left: 72px;
+        }
